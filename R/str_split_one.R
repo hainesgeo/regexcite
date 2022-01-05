@@ -21,3 +21,8 @@ str_split_one <- function(string, pattern, n = Inf) {
         character()
     }
 }
+
+library(tidyverse)
+
+iris %>%
+    summary()
